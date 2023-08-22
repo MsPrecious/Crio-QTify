@@ -13,7 +13,7 @@ describe('HeroSection', () => {
     // Test for the presence of the logo image
     const logoImage = screen.getByAltText('vibrating-headphone');
     expect(logoImage).toBeInTheDocument();
-    expect(logoImage).toHaveAttribute('src', '/vibrating-headphone.PNG'); 
+    expect(logoImage).toHaveAttribute('src', '../vibrating-headphone.PNG'); 
 
   });
 });

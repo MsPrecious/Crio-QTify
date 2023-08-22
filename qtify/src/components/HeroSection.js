@@ -1,5 +1,5 @@
 import React from 'react';
-import vibratingHeadphoneImage from '/vibrating-headphone.PNG'; // Import the logo image
+import vibratingHeadphoneImage from '../vibrating-headphone.PNG'; // Import the logo image
 
 const HeroSection = () => {
   return (
