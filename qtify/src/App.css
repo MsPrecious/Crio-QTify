@@ -1,7 +1,8 @@
+/* App.css */
 .App {
   text-align: center;
 }
-
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -11,28 +12,64 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+}*/
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Navbar styles */
+.navbar {
+  background-color:	#5cb55c;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-left {
+  flex: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.qtify-logo {
+  width: 60px; /* Adjust size as needed */
+}
+
+.navbar-center {
+  flex: 2;
+  text-align: center;
+}
+
+.search-bar {
+  display: inline-flex;
+  overflow: hidden;
+  background-color: white;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 600px; /* Adjust width as needed */
+}
+
+.search-input {
+  border: none;
+  padding: 8px 12px;
+  outline: none;
+  flex: 1;
+}
+
+.search-icon {
+  padding: 8px;
+  color: #5cb55c;
+  font-size: 18px; /* Adjust the font size as needed */
+}
+
+
+
+.navbar-right {
+  flex: 1;
+  text-align: right;
+}
+
+.feedback-button {
+  background-color: black;
+  color:	#5cb55c;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
 }
