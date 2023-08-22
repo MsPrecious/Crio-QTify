@@ -73,3 +73,37 @@
   border-radius: 5px;
   cursor: pointer;
 }
+/* HeroSection styles */
+.hero-section {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px; /* Add some spacing between text and image */
+}
+
+.first-line,
+.second-line {
+  font-size: 24px;
+  margin: 0; /* Reset margin to remove any default spacing */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center; /* Center the logo vertically */
+}
+
+.hero-logo {
+  height: 100px; /* Adjust height as needed */
+}

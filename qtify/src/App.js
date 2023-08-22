@@ -3,6 +3,7 @@ import './App.css';
 import SearchBar from './components/SearchBar'; // Import the SearchBar component
 import FeedbackButton from './components/FeedbackButton'; // Import the FeedbackButton component
 import QtifyLogo from './Qtify-logo.PNG';
+import HeroSection from './components/HeroSection';
 
 const App = () => {
   return (
@@ -20,6 +21,8 @@ const App = () => {
           <FeedbackButton />
         </div>
       </nav>
+       {/* Insert HeroSection component */}
+       <HeroSection />
       {/* Other content */}
     </div>
   );
