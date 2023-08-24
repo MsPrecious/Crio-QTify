@@ -1,5 +1,6 @@
 import React from 'react';
 import vibratingHeadphoneImage from '../vibrating-headphone.png'; // Import the logo image
+import Card from './Card'; 
 
 const HeroSection = () => {
   return (
@@ -21,8 +22,18 @@ const HeroSection = () => {
           />
         </div>
       </div>
+      <div className="card-section">
+        <Card />
+      </div>
+
     </div>
   );
 };
 
 export default HeroSection;
+
+
+
+
+
+
