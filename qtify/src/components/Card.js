@@ -1,17 +1,16 @@
 import React from 'react';
-import dancingGirlImage from '../../src/dancing-girl.png';
 import '../App.css';
 
-const Card = () => {
+const Card = ({ imageSrc, followsText }) => {
   return (
     <div className="card">
       <div className="card-image-container">
-        <img src={dancingGirlImage} alt="Dancing Girl" className="card-image" />
+        <img src={imageSrc} alt="album cover" className="card-image" />
       </div>
       <div className="follows-capsule">
-        <p className="follows-text">100M Follows</p>
+        <p className="follows-text">{followsText}</p>
       </div>
-     </div>
+    </div>
   );
 }
 

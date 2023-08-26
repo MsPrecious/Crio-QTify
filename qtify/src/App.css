@@ -114,6 +114,7 @@
   justify-content:flex-start;
   background-color: black;
   padding: 20px 0;
+  margin: 0 -5px;
 }
 
 .card {
@@ -121,11 +122,13 @@
   padding: 1px;
   color: black;
   border-radius: 10px;
-  width: calc(20% - 10px);
-  margin: 10px;
+  width: calc(16.666% - 10px);
+  margin: 10px 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-height:500px;
+  max-width: 180px;
 }
 
 .card-image {

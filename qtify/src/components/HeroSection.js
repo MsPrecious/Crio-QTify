@@ -1,7 +1,6 @@
 import React from 'react';
 import vibratingHeadphoneImage from '../vibrating-headphone.png'; // Import the logo image
-import Card from './Card'; 
-
+import AlbumGrid from './AlbumGrid';
 const HeroSection = () => {
   return (
     <div className="hero-section">
@@ -22,16 +21,12 @@ const HeroSection = () => {
           />
         </div>
       </div>
-      <div className="card-section">
-        <Card />
-      </div>
-
+      <AlbumGrid />
     </div>
   );
 };
 
 export default HeroSection;
-
 
 
 
