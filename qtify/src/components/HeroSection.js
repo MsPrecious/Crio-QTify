@@ -1,6 +1,7 @@
 import React from 'react';
 import vibratingHeadphoneImage from '../vibrating-headphone.png'; // Import the logo image
 import AlbumGrid from './AlbumGrid';
+import NewSongs from './NewSongsGrid';
 const HeroSection = () => {
   return (
     <div className="hero-section">
@@ -22,6 +23,7 @@ const HeroSection = () => {
         </div>
       </div>
       <AlbumGrid />
+      <NewSongs/>
     </div>
   );
 };
