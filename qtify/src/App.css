@@ -273,3 +273,43 @@
 }
 
  
+/* FAQ Accordion */
+.faq-section {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.centered-heading {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.accordion {
+  margin-top: 20px;
+  border: 1px solid #5cb55c;
+  border-radius: 5px;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.accordion-icon {
+  color: #5cb55c;
+  font-size: 18px;
+}
+
+.accordion-content {
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border-top: 1px solid #5cb55c;
+}

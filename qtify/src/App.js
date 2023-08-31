@@ -5,6 +5,7 @@ import FeedbackButton from './components/FeedbackButton'; // Import the Feedback
 import QtifyLogo from './Qtify-logo.PNG';
 import HeroSection from './components/HeroSection';
 import FilterSection from './components/FilterSection';
+import FAQ from './components/FAQ';
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
        {/* Insert HeroSection component */}
        <HeroSection />
        <FilterSection/>
+       <FAQ/>
       {/* Other content */}
     </div>
   );
